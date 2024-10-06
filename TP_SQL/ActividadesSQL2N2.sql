@@ -99,13 +99,7 @@ WHERE precio > (
     FROM productos p2
     WHERE p2.categoria = 'Libros'
 )AND p1.categoria != 'Libros';
-/*21. Seleccionar Productos con Precio Mayor al Promedio de Productos de
-la Misma Categoría y Fecha de Lanzamiento Reciente
-Escribe una consulta SQL que seleccione el nombre y el precio de los
-productos cuyo precio sea mayor que el promedio de precios de los
-productos de la misma categoría y que hayan sido lanzados después de
-una fecha específica (por ejemplo, '2020-01-01').
-*/
+
 SELECT nombre, precio
 FROM productos p1
 WHERE precio > (
