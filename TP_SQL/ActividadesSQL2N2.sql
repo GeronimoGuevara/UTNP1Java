@@ -1,3 +1,4 @@
+--Parte solo de los SELECTS o Consultas 
 SELECT * FROM productos;
 SELECT * FROM productos WHERE (precio > 200.00 and categoria = 'Electrónica') OR (precio < 50.00 AND categoria = 'Hogar');
 
