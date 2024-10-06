@@ -1,3 +1,4 @@
+--Parte solo de CREATE TABLE y INSERT INTO
 CREATE database IF NOT EXISTS base1_GeroGuevara;
 USE base1_GeroGuevara;
 DROP TABLE IF EXISTS productos;
